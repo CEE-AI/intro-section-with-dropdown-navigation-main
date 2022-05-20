@@ -1,0 +1,56 @@
+@use "../custom" as *;
+@use "../components/mixins" as *;
+
+.menu{
+    font-family: 'Epilogue', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    padding-left: 0rem;
+    padding-right: 2rem;
+    background-color: $primary;
+    .logo{
+        padding: 2rem 3rem 0 0;
+    }
+    .left-navbar{
+        padding-top: 1.5rem;
+    
+        .nav-item{
+            padding-right: 2rem;
+        }
+        li{
+            padding-right: 0;
+            .image{
+                position: absolute;
+                margin: 0.4rem 0.5rem 0 1rem;
+                padding-right: 0.5rem;
+            }
+            .dropdown-item{
+                color: $mediumGray
+            }
+            .dropdown-company{
+                width: 7rem;
+                margin-right: 0;
+            }
+            .dropdown-item2{
+                padding-left: 3rem;
+            }
+        }
+        .dropdown-menu{
+            border: none;
+            border-radius: 0.5rem;
+            width: auto;
+            margin-right: 0;
+            box-shadow: 0.2rem 0.2rem 0.2rem 0.2rem hsl(0, 0%, 8%, 0.1);
+        }
+        // .chevron-up{
+        //     visibility: hidden;
+        // }
+    }
+    .right-navbar{
+        padding-top: 1.5rem;
+        li{
+            padding-right: 2rem;
+        }
+    }
+}
+

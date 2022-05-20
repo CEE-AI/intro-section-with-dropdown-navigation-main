@@ -1,0 +1,26 @@
+@use "../custom" as *;
+
+
+.btn-shape{
+    font-family: 'Epilogue', sans-serif;
+    color: $gray-600;
+    border: 2px solid $gray-600;
+    font-weight: 700;
+    border-radius: 0.8rem;
+    &:hover{
+        background-color: $primary;
+        color: $secondary;
+    }
+}
+.btn-shape2{
+    background-color: $secondary;
+    color: $almostWhite;
+    margin-top: 3rem;
+    margin-bottom: 6rem;
+    border: 1px solid $gray-600;
+    &:hover{
+        background-color: $almostWhite;
+        color: $secondary;
+        font-weight: 700;
+    }
+}

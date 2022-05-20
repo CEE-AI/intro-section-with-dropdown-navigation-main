@@ -1,0 +1,19 @@
+@use '../custom' as *;
+@use '../components/mixins' as *;
+
+.chevron-down{
+    .trigger::after{
+        margin-left: 0.4rem;
+        content: url(/images/icon-arrow-down.svg);
+    }
+}
+.chevron-up {
+    .trigger::after {
+      content: url(/images/icon-arrow-up.svg);
+    }
+    &:hover {
+        .trigger::after {
+          content: url("/images/icon-arrow-up.svg");
+        }
+    }
+}

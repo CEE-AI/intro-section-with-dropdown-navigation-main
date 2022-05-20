@@ -1,0 +1,20 @@
+@use "../custom" as *;
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700;900&display=swap');
+
+h1{
+    font-family: "Epilogue", sans-serif;
+    font-weight: 700;
+    display: inline-block;
+    font-size: 74px;
+    &--intros{
+        font-family: "Epilogue", sans-serif;
+        font-weight: 900;
+    }
+} 
+.description{
+    font-size: 18px;
+    color: $mediumGray;
+    line-height: normal;
+    font-weight: 500;
+    padding-right: 7rem;
+}
